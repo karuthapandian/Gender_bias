@@ -1,0 +1,18 @@
+// to invoke methods in parent class
+class A{
+    String name="XYZ";
+
+}
+class B extends A{
+    String name="SSS";
+    void display()
+    {
+        System.out.println(name);
+    }
+}
+public class Super {
+    public static void main(String[] args) {
+    B obj=new B();
+    obj.display();    
+    }
+}

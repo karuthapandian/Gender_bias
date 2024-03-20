@@ -1,0 +1,33 @@
+/ Polymorphism 
+//Method Overloading 
+//1. By changing number of args
+//2.By changing data type
+
+class MethodOverloading
+{
+    void add()
+    {
+        int c=10+20;
+        System.out.println(c);
+    }
+    void add(int a,int b)
+    // void add(float a,float b)
+    {
+        int d=a+b;
+        // float d=a+b;
+        System.out.println(d);
+    }
+    void add(int a,int b,int c)
+    {
+        int e=a+b+c;
+        System.out.println(e);
+    }
+}
+public class Polymorphism {
+    public static void main(String[] args) {
+        Polymorphism obj=new Polymorphism();
+        obj.add();
+        obj.add(10,20);
+        obj.add(109,204,300);
+    }
+}

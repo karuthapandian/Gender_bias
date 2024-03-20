@@ -1,0 +1,19 @@
+//Methods - Built in 
+
+public class Methodstypes {
+    public static void main(String[] args) {
+     Methodstypes obj=new Methodstypes();
+     obj.display();    
+    
+    }
+
+    public void display()
+    {
+        System.out.println("Welcome folks");
+    }
+    public int display1()
+    {
+        System.out.println("Welcome folks");
+     return 0;
+    }
+}
